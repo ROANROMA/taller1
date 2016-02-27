@@ -21,7 +21,7 @@ public class Notas extends AppCompatActivity {
         Button sumar  = (Button) findViewById(R.id.CalcularSuma);
         final TextView Resultado = (TextView) findViewById(R.id.resultado);
         final Button promedio  = (Button) findViewById(R.id.promedio);
-        final TextView Promedio  = (TextView) findViewById(R.id.promedio); 
+        final TextView Promedio  = (TextView) findViewById(R.id.promedio);
         sumar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
